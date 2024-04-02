@@ -24,7 +24,7 @@ const base64encodedTxData = urlParams.get("claim");
 export async function readClaimDataFromUrl(app: AppState) {
   if (!base64encodedTxData) {
     // No claim data found
-    setClaimMessage({ type: "Notice", message: `No claim data found. Try-14` });
+    setClaimMessage({ type: "Notice", message: `No claim data found. Try-15` });
     table.setAttribute(`data-make-claim`, "error");
     return;
   }
